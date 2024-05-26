@@ -1,0 +1,43 @@
+.Nav 
+{
+    position: fixed;
+    top:0px;
+    padding:20px;
+    width:100%;
+    height: 30px;
+    z-index: 100;
+
+    transition-timing-function: ease-in;
+    transition: all 0.5s; 
+}
+
+.Nav_Black
+{
+    background-color:black;
+}
+
+.Nav_Contents
+{
+    display : flex;
+    justify-content: space-between;
+}
+
+.Netflix_Logo
+{
+    position:fixed;
+    right:20px;
+    left: 0px;
+    width:80px;
+    object-fit: contain;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.User_Avatar
+{
+    position: fixed;
+    right:20px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
